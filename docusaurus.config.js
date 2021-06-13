@@ -1,19 +1,19 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Photon',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Lightning fast and portable programming language!',
+  url: 'https://photon-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'photon', // Usually your GitHub org/user name.
+  projectName: 'photon', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Photon',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Photon logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -21,11 +21,11 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/HashLDash/Photon',
           label: 'GitHub',
           position: 'right',
         },
@@ -52,7 +52,7 @@ module.exports = {
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.com/invite/GdgAVEuY92',
             },
             {
               label: 'Twitter',
@@ -69,7 +69,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/HashLDash/Photon',
             },
           ],
         },
