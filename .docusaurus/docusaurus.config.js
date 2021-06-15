@@ -24,13 +24,23 @@ export default {
           "activeSidebarClassName": "navbar__link--active"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
+          "href": "https://github.com/HashLDash/Photon",
+          "label": "GitHub",
           "position": "left"
         },
         {
-          "href": "https://github.com/HashLDash/Photon",
-          "label": "GitHub",
+          "href": "https://www.patreon.com/hashldash",
+          "label": "Patreon",
+          "position": "right"
+        },
+        {
+          "to": "/blog",
+          "label": "Blog",
+          "position": "right"
+        },
+        {
+          "to": "/blog/welcome",
+          "label": "Community",
           "position": "right"
         }
       ],
@@ -52,16 +62,20 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "Discussions",
+              "href": "https://github.com/HashLDash/Photon/discussions"
             },
             {
               "label": "Discord",
               "href": "https://discord.com/invite/GdgAVEuY92"
             },
             {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "label": "Youtube Português",
+              "href": "https://www.youtube.com/user/11Wills11"
+            },
+            {
+              "label": "Youtube English",
+              "href": "https://www.youtube.com/channel/UChE5M9BAsdtlllOpfhIu8Tw"
             }
           ]
         },
@@ -86,9 +100,9 @@ export default {
       "disableSwitch": false,
       "respectPrefersColorScheme": false,
       "switchConfig": {
-        "darkIcon": "🌜",
+        "darkIcon": "B",
         "darkIconStyle": {},
-        "lightIcon": "🌞",
+        "lightIcon": "D",
         "lightIconStyle": {}
       }
     },

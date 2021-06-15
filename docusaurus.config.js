@@ -16,6 +16,7 @@ module.exports = {
         alt: 'Photon logo',
         src: 'img/logo.svg',
       },
+
       items: [
         {
           type: 'doc',
@@ -23,12 +24,14 @@ module.exports = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
+	{
           href: 'https://github.com/HashLDash/Photon',
           label: 'GitHub',
-          position: 'right',
+          position: 'left',
         },
+	{href: 'https://www.patreon.com/hashldash', label: 'Patreon', position: 'right'},
+        {to: '/blog', label: 'Blog', position: 'right'},
+        {to: '/blog/welcome', label: 'Community', position: 'right'},
       ],
     },
     footer: {
@@ -47,16 +50,20 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Discussions',
+              href: 'https://github.com/HashLDash/Photon/discussions',
             },
             {
               label: 'Discord',
               href: 'https://discord.com/invite/GdgAVEuY92',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Youtube Português',
+	      href: 'https://www.youtube.com/user/11Wills11',
+            },
+            {
+              label: 'Youtube English',
+              href: 'https://www.youtube.com/channel/UChE5M9BAsdtlllOpfhIu8Tw',
             },
           ],
         },

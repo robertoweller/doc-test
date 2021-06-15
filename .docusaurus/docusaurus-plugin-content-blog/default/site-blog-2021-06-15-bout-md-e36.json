@@ -1,0 +1,25 @@
+{
+  "permalink": "/blog/hello-world",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2021-06-15-bout.md",
+  "source": "@site/blog/2021-06-15-bout.md",
+  "title": "About this Blog",
+  "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
+  "date": "2021-06-15T00:00:00.000Z",
+  "formattedDate": "June 14, 2021",
+  "tags": [
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    },
+    {
+      "label": "docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    }
+  ],
+  "readingTime": 0.12,
+  "truncated": true,
+  "nextItem": {
+    "title": "Updates",
+    "permalink": "/blog/hola"
+  }
+}
