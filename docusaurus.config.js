@@ -31,6 +31,7 @@ module.exports = {
         },
 	{href: 'https://www.patreon.com/hashldash', label: 'Patreon', position: 'right'},
         {to: '/blog', label: 'Blog', position: 'right'},
+	{to: 'vlog', label: 'Vlog', position: 'right'},
         {to: '/blog/welcome', label: 'Community', position: 'right'},
       ],
     },
@@ -92,13 +93,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/robertoweller/doc-test/edit/master',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
+          // My  repo
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/robertoweller/doc-test/edit/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

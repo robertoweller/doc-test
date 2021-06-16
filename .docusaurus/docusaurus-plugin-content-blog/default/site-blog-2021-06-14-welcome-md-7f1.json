@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/welcome",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2021-06-14-welcome.md",
+  "editUrl": "https://github.com/robertoweller/doc-test/edit/master/blog/2021-06-14-welcome.md",
   "source": "@site/blog/2021-06-14-welcome.md",
   "title": "Welcome",
   "description": "*  We have our chat on Discord in portuguese. *",
@@ -23,7 +23,7 @@
   "readingTime": 0.33,
   "truncated": false,
   "prevItem": {
-    "title": "Updates",
-    "permalink": "/blog/hola"
+    "title": "About this Blog",
+    "permalink": "/blog/hello-world"
   }
 }

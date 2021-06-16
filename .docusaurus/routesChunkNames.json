@@ -25,21 +25,29 @@
   "/__docusaurus/debug/routes-244": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/blog-6d8": {
+  "/blog-51d": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "sidebar": "sidebar---blog-938-5b0",
     "items": [
       {
-        "content": "content---blog-667-2a2"
+        "content": "content---blogc-07-ca0"
       },
       {
         "content": "content---bloga-66-fd7"
+      },
+      {
+        "content": "content---blog-667-2a2"
       },
       {
         "content": "content---bloge-57-ea5"
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
+  },
+  "/blog/greetings-978": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-938-5b0",
+    "content": "content---blog-greetings-12-d-65d"
   },
   "/blog/hello-world-7cb": {
     "component": "component---theme-blog-post-pageccc-cab",
@@ -78,6 +86,16 @@
       }
     ],
     "metadata": "metadata---blog-tags-docusaurusa-80-728"
+  },
+  "/blog/tags/greetings-bb4": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-938-5b0",
+    "items": [
+      {
+        "content": "content---blogc-07-ca0"
+      }
+    ],
+    "metadata": "metadata---blog-tags-greetingsce-0-3c2"
   },
   "/blog/tags/hello-10d": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",

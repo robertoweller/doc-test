@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/hola",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2021-06-15-updates.md",
+  "editUrl": "https://github.com/robertoweller/doc-test/edit/master/blog/2021-06-15-updates.md",
   "source": "@site/blog/2021-06-15-updates.md",
   "title": "Updates",
   "description": "I'll start posting updates about the language, tips suggestions please send me :)",
@@ -23,11 +23,11 @@
   "readingTime": 0.065,
   "truncated": false,
   "prevItem": {
-    "title": "About this Blog",
-    "permalink": "/blog/hello-world"
+    "title": "Greetings!",
+    "permalink": "/blog/greetings"
   },
   "nextItem": {
-    "title": "Welcome",
-    "permalink": "/blog/welcome"
+    "title": "About this Blog",
+    "permalink": "/blog/hello-world"
   }
 }

@@ -6,8 +6,8 @@
           "versionName": "current",
           "versionLabel": "Next",
           "versionPath": "/docs",
-          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
-          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionEditUrl": "https://github.com/robertoweller/doc-test/edit/master/docs",
+          "versionEditUrlLocalized": "https://github.com/robertoweller/doc-test/edit/master/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/home/roberto/Documentos/sites/novo/doc-test/sidebars.js",
@@ -90,7 +90,7 @@
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/intro.md",
+              "editUrl": "https://github.com/robertoweller/doc-test/edit/master/docs/intro.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -112,7 +112,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/congratulations",
               "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/congratulations.md",
+              "editUrl": "https://github.com/robertoweller/doc-test/edit/master/docs/tutorial-basics/congratulations.md",
               "version": "current",
               "sidebarPosition": 6,
               "frontMatter": {
@@ -138,7 +138,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-blog-post",
               "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-blog-post.md",
+              "editUrl": "https://github.com/robertoweller/doc-test/edit/master/docs/tutorial-basics/create-a-blog-post.md",
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
@@ -164,7 +164,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-document",
               "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-document.md",
+              "editUrl": "https://github.com/robertoweller/doc-test/edit/master/docs/tutorial-basics/create-a-document.md",
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
@@ -190,7 +190,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-page",
               "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/create-a-page.md",
+              "editUrl": "https://github.com/robertoweller/doc-test/edit/master/docs/tutorial-basics/create-a-page.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -216,7 +216,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/deploy-your-site",
               "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/deploy-your-site.md",
+              "editUrl": "https://github.com/robertoweller/doc-test/edit/master/docs/tutorial-basics/deploy-your-site.md",
               "version": "current",
               "sidebarPosition": 5,
               "frontMatter": {
@@ -242,7 +242,7 @@
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/markdown-features",
               "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-basics/markdown-features.mdx",
+              "editUrl": "https://github.com/robertoweller/doc-test/edit/master/docs/tutorial-basics/markdown-features.mdx",
               "version": "current",
               "sidebarPosition": 4,
               "frontMatter": {
@@ -268,7 +268,7 @@
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/manage-docs-versions",
               "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-extras/manage-docs-versions.md",
+              "editUrl": "https://github.com/robertoweller/doc-test/edit/master/docs/tutorial-extras/manage-docs-versions.md",
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
@@ -294,7 +294,7 @@
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/translate-your-site",
               "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/tutorial-extras/translate-your-site.md",
+              "editUrl": "https://github.com/robertoweller/doc-test/edit/master/docs/tutorial-extras/translate-your-site.md",
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
@@ -315,27 +315,23 @@
     "default": {
       "blogPosts": [
         {
-          "id": "hello-world",
+          "id": "greetings",
           "metadata": {
-            "permalink": "/blog/hello-world",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2021-06-15-bout.md",
-            "source": "@site/blog/2021-06-15-bout.md",
-            "title": "About this Blog",
-            "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
-            "date": "2021-06-15T00:00:00.000Z",
-            "formattedDate": "June 14, 2021",
+            "permalink": "/blog/greetings",
+            "editUrl": "https://github.com/robertoweller/doc-test/edit/master/blog/2021-06-16-greetings.md",
+            "source": "@site/blog/2021-06-16-greetings.md",
+            "title": "Greetings!",
+            "description": "Hello, i'm Roberto Weller",
+            "date": "2021-06-16T00:00:00.000Z",
+            "formattedDate": "June 15, 2021",
             "tags": [
               {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "label": "greetings",
+                "permalink": "/blog/tags/greetings"
               }
             ],
-            "readingTime": 0.12,
-            "truncated": true,
+            "readingTime": 0.02,
+            "truncated": false,
             "nextItem": {
               "title": "Updates",
               "permalink": "/blog/hola"
@@ -346,7 +342,7 @@
           "id": "hola",
           "metadata": {
             "permalink": "/blog/hola",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2021-06-15-updates.md",
+            "editUrl": "https://github.com/robertoweller/doc-test/edit/master/blog/2021-06-15-updates.md",
             "source": "@site/blog/2021-06-15-updates.md",
             "title": "Updates",
             "description": "I'll start posting updates about the language, tips suggestions please send me :)",
@@ -369,8 +365,40 @@
             "readingTime": 0.065,
             "truncated": false,
             "prevItem": {
+              "title": "Greetings!",
+              "permalink": "/blog/greetings"
+            },
+            "nextItem": {
               "title": "About this Blog",
               "permalink": "/blog/hello-world"
+            }
+          }
+        },
+        {
+          "id": "hello-world",
+          "metadata": {
+            "permalink": "/blog/hello-world",
+            "editUrl": "https://github.com/robertoweller/doc-test/edit/master/blog/2021-06-15-bout.md",
+            "source": "@site/blog/2021-06-15-bout.md",
+            "title": "About this Blog",
+            "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
+            "date": "2021-06-15T00:00:00.000Z",
+            "formattedDate": "June 14, 2021",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "truncated": true,
+            "prevItem": {
+              "title": "Updates",
+              "permalink": "/blog/hola"
             },
             "nextItem": {
               "title": "Welcome",
@@ -382,7 +410,7 @@
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2021-06-14-welcome.md",
+            "editUrl": "https://github.com/robertoweller/doc-test/edit/master/blog/2021-06-14-welcome.md",
             "source": "@site/blog/2021-06-14-welcome.md",
             "title": "Welcome",
             "description": "*  We have our chat on Discord in portuguese. *",
@@ -405,8 +433,8 @@
             "readingTime": 0.33,
             "truncated": false,
             "prevItem": {
-              "title": "Updates",
-              "permalink": "/blog/hola"
+              "title": "About this Blog",
+              "permalink": "/blog/hello-world"
             }
           }
         }
@@ -418,34 +446,27 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 3,
+            "totalCount": 4,
             "previousPage": null,
             "nextPage": null,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           },
           "items": [
-            "hello-world",
+            "greetings",
             "hola",
+            "hello-world",
             "welcome"
           ]
         }
       ],
       "blogTags": {
-        "hello": {
-          "name": "hello",
+        "greetings": {
+          "name": "greetings",
           "items": [
-            "hello-world",
-            "welcome"
+            "greetings"
           ],
-          "permalink": "/blog/tags/hello"
-        },
-        "docusaurus": {
-          "name": "docusaurus",
-          "items": [
-            "hello-world"
-          ],
-          "permalink": "/blog/tags/docusaurus"
+          "permalink": "/blog/tags/greetings"
         },
         "community": {
           "name": "community",
@@ -468,6 +489,21 @@
             "hola"
           ],
           "permalink": "/blog/tags/updates"
+        },
+        "hello": {
+          "name": "hello",
+          "items": [
+            "hello-world",
+            "welcome"
+          ],
+          "permalink": "/blog/tags/hello"
+        },
+        "docusaurus": {
+          "name": "docusaurus",
+          "items": [
+            "hello-world"
+          ],
+          "permalink": "/blog/tags/docusaurus"
         },
         "welcome": {
           "name": "welcome",

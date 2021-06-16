@@ -44,7 +44,12 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','6d8'),
+  component: ComponentCreator('/blog','51d'),
+  exact: true,
+},
+{
+  path: '/blog/greetings',
+  component: ComponentCreator('/blog/greetings','978'),
   exact: true,
 },
 {
@@ -70,6 +75,11 @@ export default [
 {
   path: '/blog/tags/docusaurus',
   component: ComponentCreator('/blog/tags/docusaurus','f79'),
+  exact: true,
+},
+{
+  path: '/blog/tags/greetings',
+  component: ComponentCreator('/blog/tags/greetings','bb4'),
   exact: true,
 },
 {

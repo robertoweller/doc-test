@@ -1,17 +1,10 @@
 {
-  "hello": {
+  "greetings": {
     "allTagsPath": "/blog/tags",
-    "slug": "hello",
-    "name": "hello",
-    "count": 2,
-    "permalink": "/blog/tags/hello"
-  },
-  "docusaurus": {
-    "allTagsPath": "/blog/tags",
-    "slug": "docusaurus",
-    "name": "docusaurus",
+    "slug": "greetings",
+    "name": "greetings",
     "count": 1,
-    "permalink": "/blog/tags/docusaurus"
+    "permalink": "/blog/tags/greetings"
   },
   "community": {
     "allTagsPath": "/blog/tags",
@@ -33,6 +26,20 @@
     "name": "updates",
     "count": 1,
     "permalink": "/blog/tags/updates"
+  },
+  "hello": {
+    "allTagsPath": "/blog/tags",
+    "slug": "hello",
+    "name": "hello",
+    "count": 2,
+    "permalink": "/blog/tags/hello"
+  },
+  "docusaurus": {
+    "allTagsPath": "/blog/tags",
+    "slug": "docusaurus",
+    "name": "docusaurus",
+    "count": 1,
+    "permalink": "/blog/tags/docusaurus"
   },
   "welcome": {
     "allTagsPath": "/blog/tags",

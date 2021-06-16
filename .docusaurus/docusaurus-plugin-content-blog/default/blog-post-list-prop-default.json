@@ -2,12 +2,16 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "About this Blog",
-      "permalink": "/blog/hello-world"
+      "title": "Greetings!",
+      "permalink": "/blog/greetings"
     },
     {
       "title": "Updates",
       "permalink": "/blog/hola"
+    },
+    {
+      "title": "About this Blog",
+      "permalink": "/blog/hello-world"
     },
     {
       "title": "Welcome",

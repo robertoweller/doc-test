@@ -39,6 +39,11 @@ export default {
           "position": "right"
         },
         {
+          "to": "vlog",
+          "label": "Vlog",
+          "position": "right"
+        },
+        {
           "to": "/blog/welcome",
           "label": "Community",
           "position": "right"
@@ -100,9 +105,9 @@ export default {
       "disableSwitch": false,
       "respectPrefersColorScheme": false,
       "switchConfig": {
-        "darkIcon": "B",
+        "darkIcon": "🌜",
         "darkIconStyle": {},
-        "lightIcon": "D",
+        "lightIcon": "🌞",
         "lightIconStyle": {}
       }
     },
@@ -121,11 +126,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/home/roberto/Documentos/sites/novo/doc-test/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+          "editUrl": "https://github.com/robertoweller/doc-test/edit/master"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+          "editUrl": "https://github.com/robertoweller/doc-test/edit/master"
         },
         "theme": {
           "customCss": "/home/roberto/Documentos/sites/novo/doc-test/src/css/custom.css"
