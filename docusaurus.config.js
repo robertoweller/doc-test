@@ -31,7 +31,7 @@ module.exports = {
         },
 	{href: 'https://www.patreon.com/hashldash', label: 'Patreon', position: 'right'},
         {to: '/blog', label: 'Blog', position: 'right'},
-	{to: 'vlog', label: 'Vlog', position: 'right'},
+	{to: 'docs/vlog', label: 'Vlog', position: 'right'},
         {to: '/blog/welcome', label: 'Community', position: 'right'},
       ],
     },
