@@ -24,6 +24,7 @@ module.exports = {
           position: 'left',
           label: 'Docs',
         },
+	{type: 'docsVersionDropdown',},
 	{
           href: 'https://github.com/HashLDash/Photon',
           label: 'GitHub',
