@@ -1,6 +1,9 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+const path = require('path');
+const i18n = require('./i18n');
 module.exports = {
-  title: 'Photon',
+  i18n,
+  title: 'Hello Gui',
   tagline: 'Lightning fast and portable programming language!',
   url: 'https://photon-test-site.com',
   baseUrl: '/',
@@ -10,6 +13,10 @@ module.exports = {
   organizationName: 'photon', // Usually your GitHub org/user name.
   projectName: 'photon', // Usually your repo name.
   themeConfig: {
+    i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'pt-BR'],
+  },
     navbar: {
       title: 'Photon',
       logo: {
@@ -23,8 +30,9 @@ module.exports = {
           docId: 'intro',
           position: 'left',
           label: 'Docs',
-        },
-	{type: 'docsVersionDropdown',},
+        },	
+	{type: 'localeDropdown', position: 'left',},
+	{type: 'docsVersionDropdown', position: 'left',},
 	{
           href: 'https://github.com/HashLDash/Photon',
           label: 'GitHub',
