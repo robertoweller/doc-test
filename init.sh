@@ -1,3 +1,3 @@
 yarn install
 yarn build
-yarn serve
+docusaurus start
