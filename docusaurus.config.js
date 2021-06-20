@@ -3,7 +3,7 @@ const path = require('path');
 const i18n = require('./i18n');
 module.exports = {
   i18n,
-  title: 'Hello Gui',
+  title: 'Photon',
   tagline: 'Lightning fast and portable programming language!',
   url: 'https://photon-test-site.com',
   baseUrl: '/',
@@ -17,7 +17,7 @@ module.exports = {
     defaultLocale: 'en',
     locales: ['en', 'pt-BR'],
   },
-    navbar: {
+  navbar: {
       title: 'Photon',
       logo: {
         alt: 'Photon logo',
