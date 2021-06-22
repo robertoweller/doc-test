@@ -2,34 +2,24 @@
 sidebar_position: 1
 ---
 
-# Introdução ao tutorial
+# Instalação Rápida
 
-Let's discover **Docusaurus in less than 5 minutes**.
-
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
+## No linux
+** Precisa do python com versão maior a >= 3.6  **
+```
+git clone https://github.com/HashLDash/Photon.git
+```
+** Agora entrando na pasta  **
+```
+cd Photon/
+```
+** Aqui só precisa executar o script instalador **
+```
+sh linuxInstaller.sh
 ```
 
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
+** Se deu tudo certo, o código abaixo era mostrar a versão do Photon **
+```
+photon --version
 ```
 
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
