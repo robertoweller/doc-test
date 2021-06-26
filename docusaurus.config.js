@@ -11,7 +11,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'photon', // Usually your GitHub org/user name.
-  projectName: 'photon', // Usually your repo name.
+  projectName: 'photon', // Usually your repo name. 
   themeConfig: {
     i18n: {
     defaultLocale: 'en',
@@ -40,8 +40,8 @@ module.exports = {
         },
 	{href: 'https://www.patreon.com/hashldash', label: 'Patreon', position: 'right'},
         {to: '/blog', label: 'Blog', position: 'right'},
-	{to: 'docs/vlog', label: 'Vlog', position: 'right'},
-        {to: '/blog/welcome', label: 'Community', position: 'right'},
+	{to: 'vlog', label: 'Vlog', position: 'right'},
+        {to: 'community', label: 'Community', position: 'right'},
       ],
     },
     footer: {
