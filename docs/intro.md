@@ -1,35 +1,101 @@
 ---
-sidebar_position: 5
+sidebar_position: 0
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+# Welcome
 
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Color guide of this document.
 
-## Getting Started
 
-Get started by **creating a new site**.
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '3px',
+      color: '#000',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
 
-## Generate a new site
+:::tip 
 
-Generate a new Docusaurus site using the **classic template**:
+A tip or an idea.
+
+:::
+
+:::danger Take care
+
+This action is dangerous
+
+:::
+
+
+:::note
+
+Some more information.
+:::
+
+:::caution
+Attention, there may be some change
+:::
+
+:::important
+Important, blue color
+
+:::
+
+
+<Highlight color="#cf1d1d">YouTube</Highlight>
+
+## For linux is recommended 
 
 ```shell
-npx @docusaurus/init@latest init my-website classic
+sudo apt update
 ```
 
-## Start your site
+## Install Photon 
 
-Run the development server:
+<Tabs
+  groupId="operating-systems"
+  defaultValue="win"
+  values={[
+    {label: 'Windows', value: 'win'},
+    {label: 'macOS', value: 'mac'},
+    {label: 'Linux', value: 'linux'},
+  ]}>
+  <TabItem value="win">I am Windows.</TabItem>
+  <TabItem value="mac">I am macOS.</TabItem>
+  <TabItem value="linux"> <h2> Is recommended </h2> 
+  <code>sudo apt update && sudo apt upgrade </code></TabItem>
+</Tabs>
+
+
+## Clone the GitHub repository with the following command:
 
 ```shell
-cd my-website
-
-npx docusaurus start
+git clone https://github.com/HashLDash/Photon.git
 ```
 
-Your site starts at `http://localhost:3000`.
+```shell
+cd Photo/
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+sh install.sh
+```
+
+Now just wait to install **automatically**.
+
+
+
+
+
+
+
+
+
+
+
